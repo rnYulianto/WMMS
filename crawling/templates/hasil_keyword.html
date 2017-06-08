@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hasil</title>
+</head>
+<body>
+	{% for a in list_search %}
+	<li>{{a|safe}}</li>
+	{%endfor%}
+	<button type="submit" name="save_keyword_to_db"> Save Data </button>
+</body>
+</html>
